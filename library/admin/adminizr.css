@@ -1,0 +1,13 @@
+/**
+ * Style the "Reset" button's label - resetting the indi BS settings
+ */
+.bs-reset-post-id .csf-after-text{float:left;margin-left:20px;background:#0085ba;color:white;padding:2px 7px;border-radius:3px;cursor:pointer;}
+.bs-reset-post-id .csf-after-text:hover{ opacity: .8; }
+/**
+ * Info by group (on "Review All" in Unload Frontend/Backend tabs)
+ */
+.csf-tab-item .fa-forward,.csf-tab-item .fa-backward{padding-left:25px;}
+.bs-info-by-groups-header{display:grid;grid-template-columns:repeat(4, 1fr);border-bottom:1px solid #8ac2ed;padding-bottom:3px;margin-bottom:20px;}
+.bs-info-by-group{display:grid;grid-template-columns:repeat(4, 1fr);column-gap:15px;margin-bottom:20px;}
+.bs-info-by-group:not(:last-child){border-bottom:1px solid #ddd;padding-bottom:10px;}
+.bs-info-by-group-is{align-self:center;}
